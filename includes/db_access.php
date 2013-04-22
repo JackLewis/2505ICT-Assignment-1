@@ -1,4 +1,5 @@
 <?php
+
 //Database access functions//
 require "mysql.php";
 
@@ -17,4 +18,5 @@ function mysql_open() {
     
     return $connection;
 }
+
 ?>

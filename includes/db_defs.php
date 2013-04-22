@@ -1,4 +1,5 @@
 <?php
+
 //Database search and CRUD functions//
 require "db_access.php"
 
@@ -168,4 +169,5 @@ function delete_item($id) {
     #return 0 for error-checking
     return 0;
 }
+
 ?>
